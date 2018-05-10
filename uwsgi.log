@@ -1,0 +1,134 @@
+*** Starting uWSGI 2.0.17 (64bit) on [Mon May  7 18:53:12 2018] ***
+compiled with version: 6.4.0 20170724 on 28 April 2018 11:16:32
+os: Linux-4.14.0-deepin2-amd64 #1 SMP PREEMPT Deepin 4.14.12-2 (2018-01-06)
+nodename: aikoyanye-PC
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /media/aikoyanye/hdd/workspace/python/django_demo
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /media/aikoyanye/hdd/workspace/python/django_demo
+your processes number limit is 31242
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8001).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.17 (64bit) on [Mon May  7 18:54:35 2018] ***
+compiled with version: 6.4.0 20170724 on 28 April 2018 11:16:32
+os: Linux-4.14.0-deepin2-amd64 #1 SMP PREEMPT Deepin 4.14.12-2 (2018-01-06)
+nodename: aikoyanye-PC
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /media/aikoyanye/hdd/workspace/python/django_demo
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /media/aikoyanye/hdd/workspace/python/django_demo
+your processes number limit is 31242
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8001 fd 3
+probably another instance of uWSGI is running on the same address (127.0.0.1:9123).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.17 (64bit) on [Mon May  7 18:57:43 2018] ***
+compiled with version: 6.4.0 20170724 on 28 April 2018 11:16:32
+os: Linux-4.14.0-deepin2-amd64 #1 SMP PREEMPT Deepin 4.14.12-2 (2018-01-06)
+nodename: aikoyanye-PC
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /media/aikoyanye/hdd/workspace/python/django_demo
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /media/aikoyanye/hdd/workspace/python/django_demo
+your processes number limit is 31242
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8001 fd 3
+probably another instance of uWSGI is running on the same address (127.0.0.1:9123).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.17 (64bit) on [Mon May  7 18:59:02 2018] ***
+compiled with version: 6.4.0 20170724 on 28 April 2018 11:16:32
+os: Linux-4.14.0-deepin2-amd64 #1 SMP PREEMPT Deepin 4.14.12-2 (2018-01-06)
+nodename: aikoyanye-PC
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /media/aikoyanye/hdd/workspace/python/django_demo
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /media/aikoyanye/hdd/workspace/python/django_demo
+your processes number limit is 31242
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8001 fd 3
+uwsgi socket 0 bound to TCP address 127.0.0.1:9123 fd 6
+Python version: 3.6.2 (default, Jul 17 2017, 13:39:29)  [GCC 6.4.0 20170704]
+Python main interpreter initialized at 0x559aa337ceb0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x559aa337ceb0 pid: 11241 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 11241)
+spawned uWSGI worker 1 (pid: 11248, cores: 2)
+spawned uWSGI worker 2 (pid: 11250, cores: 2)
+spawned uWSGI worker 3 (pid: 11252, cores: 2)
+spawned uWSGI worker 4 (pid: 11254, cores: 2)
+spawned uWSGI http 1 (pid: 11256)
+/home/aikoyanye/.local/lib/python3.6/site-packages/pymongo/topology.py:149: UserWarning: MongoClient opened before fork. Create MongoClient only after forking. See PyMongo's documentation for details: http://api.mongodb.org/python/current/faq.html#is-pymongo-fork-safe
+  "MongoClient opened before fork. Create MongoClient only "
+[pid: 11248|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 518 bytes} [Mon May  7 10:59:12 2018] GET /users/ => generated 213 bytes in 473 msecs (HTTP/1.1 200) 5 headers in 158 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17 (64bit) on [Tue May  8 19:16:55 2018] ***
+compiled with version: 6.4.0 20170724 on 28 April 2018 11:16:32
+os: Linux-4.14.0-deepin2-amd64 #1 SMP PREEMPT Deepin 4.14.12-2 (2018-01-06)
+nodename: aikoyanye-PC
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /media/aikoyanye/hdd/workspace/python/django_demo
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /media/aikoyanye/hdd/workspace/python/django_demo
+your processes number limit is 31242
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8001 fd 3
+uwsgi socket 0 bound to TCP address 127.0.0.1:9123 fd 6
+Python version: 3.6.2 (default, Jul 17 2017, 13:39:29)  [GCC 6.4.0 20170704]
+Python main interpreter initialized at 0x555b28308da0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x555b28308da0 pid: 3095 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3095)
+spawned uWSGI worker 1 (pid: 3102, cores: 2)
+spawned uWSGI worker 2 (pid: 3104, cores: 2)
+spawned uWSGI worker 3 (pid: 3106, cores: 2)
+spawned uWSGI worker 4 (pid: 3108, cores: 2)
+spawned uWSGI http 1 (pid: 3110)
+/home/aikoyanye/.local/lib/python3.6/site-packages/pymongo/topology.py:149: UserWarning: MongoClient opened before fork. Create MongoClient only after forking. See PyMongo's documentation for details: http://api.mongodb.org/python/current/faq.html#is-pymongo-fork-safe
+  "MongoClient opened before fork. Create MongoClient only "
+[pid: 3106|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 518 bytes} [Tue May  8 11:19:06 2018] GET /users/ => generated 213 bytes in 955 msecs (HTTP/1.1 200) 5 headers in 158 bytes (1 switches on core 0)
+/home/aikoyanye/.local/lib/python3.6/site-packages/pymongo/topology.py:149: UserWarning: MongoClient opened before fork. Create MongoClient only after forking. See PyMongo's documentation for details: http://api.mongodb.org/python/current/faq.html#is-pymongo-fork-safe
+  "MongoClient opened before fork. Create MongoClient only "
+[pid: 3102|app: 0|req: 1/2] 127.0.0.1 () {36 vars in 469 bytes} [Tue May  8 11:19:27 2018] GET /users/ => generated 213 bytes in 552 msecs (HTTP/1.1 200) 5 headers in 158 bytes (1 switches on core 0)
+[pid: 3102|app: 0|req: 2/3] 127.0.0.1 () {40 vars in 525 bytes} [Tue May  8 11:19:35 2018] GET /users/ => generated 213 bytes in 12 msecs (HTTP/1.1 200) 5 headers in 158 bytes (1 switches on core 1)
+[pid: 3102|app: 0|req: 3/4] 127.0.0.1 () {40 vars in 525 bytes} [Tue May  8 11:19:38 2018] GET /users/ => generated 213 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 158 bytes (1 switches on core 0)
+[pid: 3102|app: 0|req: 4/5] 127.0.0.1 () {40 vars in 525 bytes} [Tue May  8 11:20:21 2018] GET /users/ => generated 213 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 158 bytes (1 switches on core 1)
